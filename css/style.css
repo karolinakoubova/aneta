@@ -1,0 +1,66 @@
+html {
+    font-family: "Alegreya Sans" ;
+}
+
+nav {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    font-size: larger;
+    color: white;
+    background-color: #232323;
+    text-decoration: none;
+    width: 30%;
+    text-align: center;
+    line-height: 60px;
+    height: 60px;
+}
+
+nav a:hover {
+    background-color: #54be90;
+}
+
+nav img {
+    width: 10%;
+}
+
+.header {
+    background-image: url(/img/weed.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+}
+
+.header-text {
+    padding-top: 100px;
+    color: white;
+    font-weight: 50;
+    font-size: 40px;
+}
+
+h2 {
+    margin: 0px;
+    font-weight: 300;
+}
+
+h1 {
+    margin: 0px;
+    font-weight: 300;
+}
+
+em {
+    text-decoration: underline solid white;
+    color: #54be90;
+    font-style: normal;
+}
+
