@@ -39,6 +39,7 @@ nav img {
     background-position: center;
     height: 500px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .header-text {
@@ -62,5 +63,27 @@ em {
     text-decoration: underline solid white;
     color: #54be90;
     font-style: normal;
+    font-weight: 500;
 }
 
+.home {
+    display: flex;
+    background-color: #232323;
+    justify-content: space-around;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    z-index: 1;
+    background-color: white;
+    margin-top: -75px;
+}
+
+.home-text {
+    padding-left: 5%;
+}
