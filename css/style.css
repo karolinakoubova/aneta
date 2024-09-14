@@ -314,4 +314,106 @@ em {
     padding-top: 0%;
 }
 
+.findme {
+    background-color: #232323;
+    color: white;
+    text-align: center;
+}
 
+.findme h1 {
+    text-align: center;
+    font-size: 50px ;
+    font-weight: 700;
+    height: 150px;
+    line-height: 150px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 7%;
+}
+
+.logos img {
+    width: 100px;
+}
+
+.form {
+    background-color: #54be90;
+    color: #54be90;
+    padding-bottom: 5%;
+    /* text-align: center; */
+}
+
+.columns {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.form h1 {
+    text-align: center;
+    font-size: 50px ;
+    font-weight: 700;
+    height: 150px;
+    line-height: 150px;
+    color: white;
+}
+
+
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: none;
+    background-color: #54be90;
+  }
+
+  input {
+    width: 320px;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin: 15px;
+    border: none;
+    border-bottom: 1px solid white;
+    box-sizing: border-box;
+    background-color: #54be90;
+  }
+
+  textarea {
+    width: 700px;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+::placeholder {
+    color: white;
+    font-size: large;
+    font-weight: 100;
+}
+
+.form p {
+    text-align: left;
+    color: white;
+    font-size: 20px;
+}
+
+.form button {
+    background-color: #232323;
+    color: white;
+    border: none;
+    width: 700px;
+    height: 35px;
+    line-height: 25px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-top: 0%;
+
+}
