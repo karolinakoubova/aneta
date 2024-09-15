@@ -7,13 +7,14 @@ nav {
     height: 150px;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0px;
 }
 
 .navbar {
     width: 85%;
     display: flex;
     justify-content: space-between;
-    position: sticky 0px;
 }
 
 nav a {
@@ -415,5 +416,53 @@ form {
     font-size: 20px;
     margin-bottom: 10px;
     padding-top: 0%;
+}
 
+.footer {
+    background-color: #ebebeb;
+    color: #232323;
+}
+
+.footer h1 {
+    text-align: center;
+    font-size: 50px ;
+    font-weight: 700;
+    height: 150px;
+    line-height: 150px;
+    color: #232323;
+    background-color: #ebebeb;
+}
+
+.footer-logos {
+   padding-top: 8%;
+   margin-left: 10%;
+   margin-right: 10%;
+   width: 300px;
+}
+
+.footer-logos img {
+    width:60px;
+    margin: 10px;
+    padding-top: 10%;
+}
+
+.border {
+    border-top: 5px solid #54be90;
+    width: 300px;
+
+}
+
+.footer-greenline {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 3%;
+    margin-top: -80px;
+}
+
+.footer p {
+    text-align: center;
+    background-color: #ebebeb;
+    
 }
