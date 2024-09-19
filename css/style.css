@@ -54,12 +54,12 @@ nav img {
 
 h2 {
     margin: 0px;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 h1 {
     margin: 0px;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 em {
@@ -67,6 +67,15 @@ em {
     color: #54be90;
     font-style: normal;
     font-weight: 500;
+}
+
+.home-intro {
+    height: 100px;
+    text-align: center;
+    font-size: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
 }
 
 .home {
