@@ -45,7 +45,7 @@ nav img {
     margin-bottom: 100px;
 }
 
-.header-text {
+.header__text {
     padding-top: 100px;
     color: white;
     font-weight: 50;
@@ -69,7 +69,7 @@ em {
     font-weight: 500;
 }
 
-.home-intro {
+.home__intro {
     height: 100px;
     text-align: center;
     font-size: 25px;
@@ -98,19 +98,19 @@ em {
     margin-left: 12%;
 }
 
-.home-text {
+.home__text {
     padding-left: 2.5%;
     padding-right: 2.5%;
     width: 200px;
     text-align: center;
 }
 
-.home-text h3 {
+.home__text h3 {
     color: #54be90;
     font-size: 30px;
 }
 
-.home-text p {
+.home__text p {
     font-size: 20px;
 }
 
@@ -129,7 +129,7 @@ em {
     line-height: 100px;
 }
 
-.skills-bar {
+.skills__bar {
     display: flex;
     justify-content: space-between;
     background-color: #54be90;
@@ -137,7 +137,7 @@ em {
     margin: 1%;
 }
 
-.skills-bar h2 {
+.skills__bar h2 {
     width: 20%;
     background-color: #444444;
     color: white;
@@ -145,7 +145,7 @@ em {
     padding-top: 1%;
 }
 
-.skills-bar p {
+.skills__bar p {
     background-color: #ebebeb;
     height: 50px;
     margin: 0px;
@@ -176,7 +176,7 @@ em {
     text-align: center;
 }
 
-.portfolio-content {
+.portfolio__content {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -193,7 +193,7 @@ em {
     line-height: 150px;
 }
 
-.portfolio-item {
+.portfolio__item {
     width: 350px;
     object-fit: contain;
     overflow: hidden;
@@ -202,7 +202,7 @@ em {
     border: 10px solid white;
 }
 
-.portfolio-item-special {
+.portfolio__item-special {
     width: 350px;
     object-fit: contain;
     overflow: hidden;
@@ -211,17 +211,17 @@ em {
     border: 10px solid black;
 }
 
-.portfolio-item img {
+.portfolio__item img {
     width: 350px;
     border-bottom: 5px solid white;
 }
 
-.portfolio-item-special img {
+.portfolio__item-special img {
     width: 350px;
     border-bottom: 5px solid black;
 }
 
-.portfolio-item span {
+.portfolio__item span {
     color: #232323;
     font-size: 20px;
     font-weight: 500;
@@ -229,12 +229,12 @@ em {
     text-align: start;
 }
 
-.portfolio-item-special p {
+.portfolio__item-special p {
     margin-top: 16px;
     margin-bottom: 5px;
 }
 
-.portfolio-item-special button {
+.portfolio__item-special button {
     background-color: #54be90;
     color: white;
     border: none;
