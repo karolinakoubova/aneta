@@ -1,0 +1,27 @@
+.navigation {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__text {
+    padding-top: 100px;
+    color: white;
+    font-weight: 50;
+    font-size: 40px;
+}
+
+.introduction {
+    height: 100px;
+    text-align: center;
+    font-size: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+.home__text {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    width: 200px;
+    text-align: center;
+}
